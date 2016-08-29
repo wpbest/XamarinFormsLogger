@@ -13,6 +13,7 @@ namespace TestXamarinFormsLogging
         public MainPage()
         {
             InitializeComponent();
+            XamarinFormsLogger.Logger.SetApplicationLocalStoragePath();
         }
         public void OnButtonClicked(object sender, EventArgs args)
         {
